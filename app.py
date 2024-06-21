@@ -74,7 +74,7 @@ if "chat_history" not in st.session_state:
     st.session_state.chat_history = [AIMessage(content="Hi, I'm a MySQL Assistant. How can I help you?")]
 
 st.set_page_config(page_title="MySQL Chatbot", page_icon=":clipboard:")
-st.title("Chat with MySQL")
+st.header("Chat with MySQL 	:robot_face:")
 
 with st.sidebar:
     st.subheader("Settings")
